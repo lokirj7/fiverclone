@@ -1,0 +1,79 @@
+.featured{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #e6653e;
+    color: white;
+    .container{
+        width: 1400px;
+        display: flex;
+        align-items: center;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 47px;
+        span{
+            font-weight: 300;
+        }
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 5px;
+         .searchInput{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+         }
+         img{
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+         }
+         input{
+            border: none;
+            outline: none;
+         }
+         button{
+            width: 120px;
+            height: 50px;
+            border: none;
+            background-color: #1dbf73;
+            color: white;
+            cursor: pointer;
+         }
+    }
+    .popular{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span{
+        }
+        button{
+            color: white;
+            background-color: transparent;
+            border: 1px solid white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+    }
+
+}
+.right{
+    height: 100%;
+img{
+    margin-left: 20px;
+    max-height: 60vh; /* Set maximum height to 50% of the viewport height */
+    width: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Ensure the image does not exceed the viewport width */
+    border-radius: 50%;
+    
+}
+}
